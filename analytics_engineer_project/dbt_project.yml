@@ -36,3 +36,9 @@ models:
       +enabled: true
       +materialized: table
       +schema: dev_environment
+    uat:
+      +enabled: true
+      +materialized: table
+      +schema: uat_environment
+      uat_date:
+        +materialized: view
