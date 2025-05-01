@@ -3,8 +3,11 @@
 ✅ Step-by-step to activate dbt environment
 1. Open Terminal (in VS Code)
 2. ```
-    cd <folder path>/dbt-env
+   cd <folder path>/dbt-env
    ```
 3. ```
-    source dbt-env/Scripts/activate
+   source dbt-env/Scripts/activate
+   ```
+4. ```
+   dbt debug
    ```
