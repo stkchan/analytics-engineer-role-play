@@ -42,3 +42,7 @@ models:
       +schema: uat_environment
       uat_date:
         +materialized: view
+    production:
+      +enabled: true
+      +materialized: table
+      +schema: production_environment
