@@ -4,6 +4,7 @@ WITH source AS (
 )
 
 SELECT
-    *
+    *,
+    DATETIME(CURRENT_TIMESTAMP(), 'Asia/Bangkok') AS ingestion_timestamp
 FROM   
     source
